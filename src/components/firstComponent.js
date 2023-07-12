@@ -1,9 +1,9 @@
 import React from "react";
 
-const FirstComponent = () => {
+const FirstComponent = ({ nomeAleatorio }) => {
   return (
     <div>
-      <h1>Este é um componente!</h1>
+      <h1>Este é um componente {nomeAleatorio}!</h1>
     </div>
   );
 };
