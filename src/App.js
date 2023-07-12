@@ -1,10 +1,12 @@
 import React from "react";
-import firstComponent from "./components/firstComponent";
+import FirstComponent from "./components/FirstComponent";
 
 const App = () => {
   return (
     <div>
-      <firstComponent />
+      <FirstComponent />
+      <FirstComponent />
+      <FirstComponent />
     </div>
   );
 };
