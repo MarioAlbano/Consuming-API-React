@@ -1,19 +1,21 @@
 import React, { useState } from "react";
-import FirstComponent from "./components/FirstComponent";
-
 const App = () => {
-  const [newName, setNewName] = useState("Sem nome");
-
-  function resetName() {
-    const resetName = prompt("Qual nome trocar?");
-    setNewName(resetName);
-  }
-
   return (
     <div>
-      <FirstComponent nomeAleatorio="Props com nome aleatória aqui" />
-      <FirstComponent nomeAleatorio={newName} />
-      <button onClick={() => resetName()}>Clique para trocar de nome!</button>
+      <h1>Formulário React</h1>
+      <form action="">
+        <label htmlFor="">Nome: </label>
+        <input type="text" />
+        <br />
+        <label htmlFor="">Email: </label>
+        <input type="text" />
+        <br />
+        <label htmlFor="">Endereço: </label>
+        <input type="text" />
+        <br />
+        <br />
+        <button type="submit">Enviar formulário</button>
+      </form>
     </div>
   );
 };
