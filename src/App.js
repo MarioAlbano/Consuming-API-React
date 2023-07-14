@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const App = () => {
   const [userStore, setUserStore] = useState("");
   const [updatedData, setUpdatedData] = useState([]);
+
+  useEffect(() => {
+    const savedItems = localStorage.getItem("itemsStore");
+    if (savedItems) {
+      setUpdatedData(JSON.parse(savedItems));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("itemsStore", JSON.stringify(updatedData));
+  }, [updatedData]);
 
   const writingArray = (e) => {
     e.preventDefault();
