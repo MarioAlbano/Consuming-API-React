@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: auto;
+  background-image: url("../../images/micheile-henderson-iVC56eIVq-c-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 6px 6px 6px rgba(2, 2, 2, 1);
+}
+
+.header-h2 {
+  font-size: 18px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 6px 6px 6px rgba(2, 2, 2, 1);
+}
