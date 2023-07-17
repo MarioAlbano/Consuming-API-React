@@ -41,6 +41,7 @@ const Main = () => {
                 className="card-image"
               />
               <h2 className="card-subtitle">{post.subtitulo}</h2>
+              <button className="button">Acessar conteúdo</button>
             </div>
           );
         })}
