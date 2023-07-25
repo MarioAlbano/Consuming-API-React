@@ -22,14 +22,11 @@ const Main = () => {
 
   return (
     <main className="main">
-      <section className="main-section-01">
+      <section className="main-section-02">
         <h2 className="main-h2-sec01">
           Conteúdos relevantes e confiáveis para ajudar você a alcançar uma vida
-          mais saudável.
+          mais saudável
         </h2>
-      </section>
-
-      <section className="main-section-02">
         {myData.map((post) => {
           return (
             <div className="main-div-card">

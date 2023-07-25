@@ -1,20 +1,9 @@
-.main {
-}
-
-.main-section-01 {
-  background-color: #2f2f2f;
-  height: 180px;
-  padding-top: 25px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .main-h2-sec01 {
   font-size: 20px;
-  color: #fff;
+  color: #2f2f2f;
+  margin: 25px 0px 25px 0px;
   font-family: "Montserrat", sans-serif;
-  text-shadow: 6px 6px 6px rgba(0, 0, 0, 1);
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
   padding: 15px;
 }
 
@@ -24,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: #2f2f2f;
+  background-color: #fff;
   padding-bottom: 25px;
 }
 
@@ -42,7 +31,10 @@
   padding: 20px 10px 20px 10px;
   border: 2px solid black;
   gap: 10px;
-  background-color: #ebebeb;
+  background-color: #2f2f2f;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #2f2f2f, #464646);
+  color: #fff;
   transition: transform 0.5s ease;
 }
 

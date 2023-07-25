@@ -17,6 +17,7 @@
   background-image: url("../../images/micheile-henderson-iVC56eIVq-c-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  border-bottom: 3px solid #000;
 }
 
 .header-h1 {
